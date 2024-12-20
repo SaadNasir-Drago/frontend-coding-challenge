@@ -1,13 +1,6 @@
 "use client";
 
-import {
-  createContext,
-  useContext,
-  useMemo,
-  useState,
-  ReactNode,
-  useEffect,
-} from "react";
+import { createContext, useContext, useMemo, useState, ReactNode, useEffect } from "react";
 
 const CONTEXT_ERROR =
   "useUserAgentContext must be used within a UserAgentProvider";
